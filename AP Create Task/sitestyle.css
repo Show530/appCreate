@@ -1,0 +1,17 @@
+h1 {
+    color: #6acbfb;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #99ccff;
+}
+
+nav {
+    text-align: center;
+}
+
+* {
+    background-color: #deeded;
+}
