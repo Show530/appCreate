@@ -31,6 +31,9 @@ table {
 footer {
     text-align: center;
 }
+table {
+    border-collapse: collapse;
+}
 
 /* Style the tab */
 .tab {

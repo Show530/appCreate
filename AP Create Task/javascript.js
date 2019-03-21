@@ -1,6 +1,8 @@
-function calender(month, monthName) {
+function calender(event, monthName) {
     // Declare all variables
-    var i, tabcontent, tablinks;
+    var i;
+    var tabcontent; 
+    var tablinks;
   
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -16,5 +18,5 @@ function calender(month, monthName) {
   
     // Show the current tab, and add an "active" class to the button that opened the tab
     document.getElementById(monthName).style.display = "block";
-    month.currentTarget.monthName += " active";
+    event.currentTarget.monthName += " active";
   }
