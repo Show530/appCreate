@@ -28,6 +28,21 @@ table {
     padding: 10px;
 }
 
+th {
+    background-color: #F92AAD;
+    color: #FEFEFE;
+}
+
+td {
+    background-color: #FEFEFE;
+    color: #F92AAD;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
 footer {
     text-align: center;
 }
