@@ -28,16 +28,6 @@ table {
     padding: 10px;
 }
 
-th {
-    background-color: #F92AAD;
-    color: #FEFEFE;
-}
-
-td {
-    background-color: #FEFEFE;
-    color: #F92AAD;
-}
-
 th, td {
     padding: 15px;
     text-align: left;
@@ -46,8 +36,42 @@ th, td {
 footer {
     text-align: center;
 }
+
 table {
     border-collapse: collapse;
+}
+em {
+    background-color: #FEFEFE;
+}
+
+#tableM th {
+    background-color: #58C4D9;
+    color: #FEFEFE;
+}
+
+#tableM td {
+    background-color: #FEFEFE;
+    color: #58C4D9;
+}
+
+#tableA th {
+    background-color: #A22879;
+    color: #FEFEFE;
+}
+
+#tableA td {
+    background-color: #FEFEFE;
+    color: #A22879;
+}
+
+#tableMa th {
+    background-color: #50C878;
+    color: #FEFEFE;
+}
+
+#tableMa td {
+    background-color: #FEFEFE;
+    color: #50C878;
 }
 
 /* Style the tab */
