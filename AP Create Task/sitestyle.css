@@ -40,8 +40,25 @@ footer {
 table {
     border-collapse: collapse;
 }
+
 em {
     background-color: #FEFEFE;
+}
+
+.nav {
+    text-align: center;
+}
+
+a:hover {
+    background-color: #E6E6FA;
+}
+  
+a:visited {
+    color: 	#C71585;
+}
+  
+a:link {
+    color: #8A2BE2;
 }
 
 #tableM th {
@@ -73,6 +90,11 @@ em {
     background-color: #FEFEFE;
     color: #50C878;
 }
+
+#homepage {
+    background-color: #deeded;
+}
+
 
 /* Style the tab */
 .tab {
