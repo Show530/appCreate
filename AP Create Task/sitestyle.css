@@ -10,10 +10,10 @@ h2 {
     color: #99ccff;
 }
 
-nav {
+/* nav {
     text-align: center;
     background-color: #DAEAEC;
-}
+} */
 
 img {
     height: 200px;
@@ -47,6 +47,12 @@ em {
 
 .nav {
     text-align: center;
+    background-color: #E3D0FE;
+    color: #E3D0FE;
+}
+
+#bar {
+    border: 1px black solid;
 }
 
 a:hover {
@@ -54,11 +60,11 @@ a:hover {
 }
   
 a:visited {
-    color: 	#C71585;
+    color: 	#4100B0;
 }
   
 a:link {
-    color: #8A2BE2;
+    color: #0B8DFE;
 }
 
 #tableM th {
