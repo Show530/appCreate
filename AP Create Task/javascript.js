@@ -20,3 +20,5 @@ function calender(event, monthName) {
     document.getElementById(monthName).style.display = "block";
     event.currentTarget.monthName += " active";
   }
+  
+document.getElementById("defaultOpen").click();
