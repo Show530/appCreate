@@ -21,4 +21,6 @@ function calender(event, monthName) {
     event.currentTarget.monthName += " active";
   }
   
-document.getElementById("defaultOpen").click();
+function clickLoad() {
+  document.getElementById("defaultOpen").click();
+}

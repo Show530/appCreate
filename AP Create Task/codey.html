@@ -6,7 +6,7 @@
         <script type="text/javascript" src= "javascript.js"></script>
             <link rel="stylesheet" type="text/css" href="sitestyle.css">
     </head>
-    <body>
+    <body onload="clickLoad()">
         <h1>Codey Schedule</h1>
         <nav class="nav" id="bar"> 
             <a href= "site.html" class="nav">Main Page</a>
@@ -16,7 +16,7 @@
         </nav>
         <p>Sessions shown are freestyle sessions that are offered by the rink and are payable at the front desk. Club sessions have been ommited.</p>
         <div class="tab">
-            <button class="tablinks" onclick= "calender(event, 'March');" id="openClick">March</button>
+            <button class="tablinks" onclick= "calender(event, 'March');" id="defaultOpen">March</button>
             <button class="tablinks" onclick= "calender(event, 'April');">April</button>
             <button class="tablinks" onclick= "calender(event, 'May');">May</button>
         </div>
